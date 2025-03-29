@@ -27,5 +27,4 @@ ax2.tick_params(axis='y', labelcolor='r')
 
 plt.title("Runtime & Runtime Increase Trend of Grover's Algorithm")
 fig.tight_layout()
-plt.grid(True)
 plt.show()
