@@ -1,10 +1,10 @@
 import matplotlib.pyplot as plt
 import json 
 
-with open('./grover_real_quantum_hardware/runtime_data.json', 'r') as f:
+with open('./grover_real_quantum_hardware/Results/runtime_data.json', 'r') as f:
     runtime_data = json.load(f)
 
-with open('./grover_real_quantum_hardware/runtime_increase_trend.json', 'r') as f:
+with open('./grover_real_quantum_hardware/Results/runtime_increase_trend.json', 'r') as f:
     runtime_increase_trend = json.load(f)
 
 x1 = list(map(int, runtime_data.keys()))

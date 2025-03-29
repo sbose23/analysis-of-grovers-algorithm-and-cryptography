@@ -20,7 +20,7 @@ def plot_results(results):
 
 import json
 def save_results(results):
-    with open("results.json", "w") as f:
+    with open("./grover_real_quantum_hardware/results.json", "w") as f:
         json.dump(results, f, indent=4)
 
 # Import necessary libraries
