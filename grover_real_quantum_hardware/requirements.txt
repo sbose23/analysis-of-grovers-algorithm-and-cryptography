@@ -1,0 +1,4 @@
+qiskit>=1
+qiskit-ibm-runtime>=0.22
+python-dotenv
+matplotlib
