@@ -30,6 +30,6 @@ This is a complete list of requirements:
  
 # Running the experiments
 
-From the project root directory, simply execute `python3 ./{subdirectory}/main.py` to run the demonstrations. A matplotlib popup should appear at the end with the figures of the results obtained in the demonstration.
+From the project root directory, simply execute `python3 ./{subdirectory}/main.py` to run the experiments. A matplotlib popup should appear at the end with the figures of the results obtained in the experiment.
 To produce the charts combining all the results, run `python3 ./{subdirectory}/plot_runtime_data.py`.
  
