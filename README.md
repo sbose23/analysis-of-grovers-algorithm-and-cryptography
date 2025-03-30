@@ -3,13 +3,13 @@
 # Project Overview
 
 This project was created for a research project for an course at Toronto Metropolitan University called Intro to Quantum Computing and Quantum Software Engineering. 
-This project contains three technical demonstrations each contributing to understanding the practicality of using Grover's algorithm for key search to break symmetric encryption or finding hash collisions.
+This project contains three technical experiments each contributing to understanding the practicality of using Grover's algorithm for key search to break symmetric encryption or finding hash collisions.
 
-# Requirements for the demonstrations
+# Requirements for the experiments
 
 Requirement: Python 3 (Python 3.9.6 was used but it is likely any Python3 version should be fine)
 
-Under each directory from the project root directory, there is a requirements.txt file that installs the required Python libraries to run that demonstration.
+Under each directory from the project root directory, there is a requirements.txt file that installs the required Python libraries to run that experiment.
 This is a complete list of requirements:
 
 - brute_force_classical
@@ -28,7 +28,7 @@ This is a complete list of requirements:
   - qiskit-algorithms
   - matplotlib
  
-# Running the demonstrations
+# Running the experiments
 
 From the project root directory, simply execute `python3 ./{subdirectory}/main.py` to run the demonstrations. A matplotlib popup should appear at the end with the figures of the results obtained in the demonstration.
 To produce the charts combining all the results, run `python3 ./{subdirectory}/plot_runtime_data.py`.
