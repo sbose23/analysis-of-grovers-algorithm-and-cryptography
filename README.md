@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15108800.svg)](https://doi.org/10.5281/zenodo.15108800)
+
 # Project Overview
 
 This project was created for a research project for an course at Toronto Metropolitan University called Intro to Quantum Computing and Quantum Software Engineering. 
